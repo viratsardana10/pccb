@@ -38,8 +38,13 @@ int solve() {
   return res;
 }
 
-int main() {
-  ifstream ifs("input.txt");
+int main(int argc, char* argv[]) {
+  if (argc != 2) {
+    return 1;
+  } 
+  cout << argv[0] << endl;
+  cout << argv[1] << endl;
+  ifstream ifs(argv[1]);
   string buf;
 
   getline(ifs, buf);
