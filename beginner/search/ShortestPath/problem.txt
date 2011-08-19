@@ -1,0 +1,15 @@
+- Description
+
+You have a maze which size is M * N. The maze consists of path and XX.
+You can move 4 direction (up, down, right and left) in one turn.
+Solve the shortest path from the start to the goal.
+
+- Constraint
+
+N, M >= 100
+
+- Sample Input
+see input.txt
+
+- Sample Output  
+22
