@@ -1,0 +1,28 @@
+*Problem
+You have coins like this:
+    - amount of 1   yen coin is C1
+    - amount of 5   yen coin is C5
+    - amount of 10  yen coin is C10
+    - amount of 50  yen coin is C50
+    - amount of 100 yen coin is C100
+    - amount of 500 yen coins is C500
+
+You want to pay A yen with the lowest amount of coins. How many coins do you have to pay? There is at least one solution for this.
+
+*Constraint
+0 <= C1, C5, C10, C50, C100, C500 <= 10^9
+0 <= A <= 10^9
+
+*sample input
+
+A = 620
+c500 = 2
+c100 = 0
+c50 = 3
+c10 = 1
+c5 = 2
+c1 = 3
+
+*sample output
+6
+ 
