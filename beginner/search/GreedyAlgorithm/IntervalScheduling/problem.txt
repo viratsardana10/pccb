@@ -1,6 +1,6 @@
 *Problem
 
-You have a number 'N' of jobs. Each job starts at time 'Si' and ends at time 'ti'. You have to choose join or not for each job. If you join, you must jon from the beginning to the end of the job. You cannot join more than two jobs at one time. An overlapping of start time and end time is not permitted.
+You have 'N' jobs. Each job starts at time 'Si' and ends at time 'ti'. You have to choose join or not for each job. If you join, you must jon from the beginning to the end of the job. You cannot join more than two jobs at one time. An overlapping of start time and end time is not permitted.
 
 You want to join as much as possible. Hou many jobs can you join?
 
