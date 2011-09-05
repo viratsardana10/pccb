@@ -1,0 +1,20 @@
+*Description
+
+You have a string S that length is N and make a string T that length is N. At the beginning, length of S is zero. You can do either operation from below:
+
+ - delete the first character of S and add it into the end of T
+ - delete the last character of S and add it into the end of T
+
+Make T as small as in dictionary order.
+
+*Constraint
+1 <= N <= 2000
+string s can contain small alphabet.
+
+*Sample Input
+N = 6
+S = "ABCDBCB"
+
+*Sample Output
+ABCBCD
+
